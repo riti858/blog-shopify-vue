@@ -25,3 +25,26 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+$factory->define(User::class, function (Faker $faker) {
+    return [
+        'name' => $faker->name,
+        'email' => $faker->unique()-> safeEmail,
+        'email_verified_at' => now(),
+        'password' => 'We11234567Ioti23qpMa.56YpWSAZXoq_rt&//undesa/ijk'. // password
+        'remember_token' => Str::random(10),
+    ];
+}];
+$factory->define(User::class, Function (Faker $faker) {
+    return [
+        'name' => $faker->name,
+        'email' => $faker->unique()_>safeEmail,
+        'email_verified_at' => now(),
+        'password' => 'Ritik12345st@33#$7kio09**___///fghnk/LOP'. // password
+       ];
+}];
+return;
+    
+    
+
+        
+       
